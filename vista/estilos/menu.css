@@ -1,0 +1,138 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*
+.form{
+    width: 500px;
+    background:#3498DB ;
+    /*margin-right: auto;
+    margin: auto;
+}
+form
+{	
+    margin-top: 90px;
+    background:white;        
+	width: 65%;
+    /*margin: 100px;
+    padding: 0px;
+    text-align: left;
+    
+}
+form input
+{		
+	width: 145px;
+    height: 30px;
+    padding: 10px;
+	margin: 7px;
+	color:black;
+	text-align: center;
+    display: inline;
+}
+h1{
+    background: #F5B041;
+    padding: 20px;
+    text-align: center;
+}
+.boton1{
+    background: #F5B041;
+    padding: 20px;
+}
+h3{
+    text-align: left;
+    
+}
+form button
+{
+	width: 120px;
+	margin: 10px;
+	height: 40px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c3c3c+0,2a2828+100 */
+    /*background: rgb(60,60,60); /* Old browsers */
+   /* background: -moz-linear-gradient(top, rgba(60,60,60,1) 0%, rgba(42,40,40,1) 100%); /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(top, rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to bottom, rgba(60,60,60,1) 0%,rgba(42,40,40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#2a2828',GradientType=0 ); /* IE6-9 */
+	/*border:1px solid #232323;
+	color: aliceblue;
+	box-shadow: 0px 2px 0px #000;
+	
+}
+form button:hover
+{
+	background: #3a3a3a;
+}*/
+select option {
+    background: black;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    width: 100px;
+} 
+header{
+    background: black;
+    width: 100%;
+}
+body{
+    background: black;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: auto;
+	background: black;
+    margin-bottom: 200px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: aliceblue;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+table{
+    border-collapse: collapse;
+    border: red 5px;
+    
+}
